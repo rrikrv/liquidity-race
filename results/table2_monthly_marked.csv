@@ -1,0 +1,9 @@
+,cs_corr,ts_corr,mean_bias,rmse
+Roll,0.766,0.710,0.003,0.015
+Effective Tick,0.967 *,0.985 *,0.001,0.006 *
+Effective Tick2,0.945,0.987 *,-0.000 *,0.007 *
+Zeros,0.363,0.934,na,na
+Zeros2,0.271,0.933,na,na
+LOT Mixed,0.860,0.906,0.020,0.027
+LOT Y-split,0.769,0.970,0.001,0.014
+Gibbs,0.868,0.834,0.004,0.010

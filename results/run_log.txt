@@ -1,0 +1,41 @@
+A. baseline race ...
+          synthetic_monthly                    ... paper_monthly_TAQ                 
+                    cs_corr ts_corr mean_bias  ...           ts_corr mean_bias   rmse
+roll                  0.726   0.845     0.003  ...             0.925    -0.002  0.032
+eff_tick              0.961   0.995     0.001  ...             0.941    -0.012  0.031
+eff_tick2             0.928   0.995    -0.000  ...             0.939    -0.013  0.032
+zeros                 0.405   0.960       NaN  ...             0.874       NaN    NaN
+zeros2                0.335   0.959       NaN  ...             0.860       NaN    NaN
+
+[5 rows x 12 columns]
+benchmark mean/median: 0.0157 0.0117
+C. deciles ...
+         roll  eff_tick  eff_tick2  zeros  roll_zero_share  true_spread
+decile                                                                 
+1       0.387     0.986      0.986  0.802            0.382        0.003
+2       0.342     0.978      0.979  0.847            0.351        0.005
+3       0.471     0.984      0.983  0.901            0.302        0.007
+4       0.575     0.983      0.983  0.872            0.275        0.009
+5       0.688     0.986      0.986  0.814            0.260        0.011
+6       0.718     0.988      0.987  0.899            0.225        0.013
+7       0.788     0.988      0.988  0.905            0.208        0.016
+8       0.807     0.992      0.993  0.897            0.163        0.020
+9       0.896     0.984      0.982  0.837            0.116        0.026
+10      0.916     0.976      0.972  0.859            0.079        0.040
+D. window length ...
+         roll  eff_tick  eff_tick2  zeros
+months                                   
+1       0.726     0.961      0.928  0.405
+2       0.813     0.975      0.948  0.471
+3       0.856     0.984      0.957  0.507
+6       0.904     0.990      0.957  0.546
+12      0.947     0.994      0.965  0.567
+B. clustering strength ...
+  kappa=1.0: roll=0.84, eff_tick=0.97, eff_tick2=0.93, zeros=0.43, zeros2=0.34
+  kappa=0.8: roll=0.84, eff_tick=0.82, eff_tick2=0.76, zeros=0.44, zeros2=0.34
+  kappa=0.6: roll=0.83, eff_tick=0.66, eff_tick2=0.61, zeros=0.47, zeros2=0.36
+  kappa=0.4: roll=0.82, eff_tick=0.58, eff_tick2=0.52, zeros=0.47, zeros2=0.36
+  kappa=0.2: roll=0.82, eff_tick=0.39, eff_tick2=0.35, zeros=0.50, zeros2=0.39
+  kappa=0.0: roll=0.82, eff_tick=0.37, eff_tick2=0.36, zeros=0.50, zeros2=0.39
+E. cluster histogram ...
+done

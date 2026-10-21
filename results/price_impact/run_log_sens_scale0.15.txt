@@ -1,0 +1,17 @@
+simulated 120 stocks x 48 months in 0 s
+participant 2 proxies: 3 s
+       lambda_true  post_impact_true   lambda_obs  post_impact_obs
+count  5760.000000       5760.000000  5760.000000      5760.000000
+mean      0.000003          0.005554     0.000003         0.005403
+50%       0.000002          0.004780     0.000002         0.005062
+corr obs vs true: {'lambda_true': {'lambda_obs': 0.231, 'post_impact_obs': 0.145}, 'post_impact_true': {'lambda_obs': 0.192, 'post_impact_obs': 0.244}}
+                           roll_impact  eff_tick_impact  eff_tick2_impact  zeros_impact  zeros2_impact  amihud  gamma  amivest
+Panel A: lambda_true             0.680            0.769             0.778         0.707          0.694   0.767 -0.154   -0.400
+Panel B: lambda_true             0.609            0.902             0.917         0.866          0.879   0.773 -0.371   -0.812
+Panel A: post_impact_true        0.236            0.271             0.277         0.223          0.219   0.267 -0.038   -0.244
+Panel B: post_impact_true        0.592            0.877             0.890         0.850          0.864   0.749 -0.368   -0.808
+Panel A: lambda_obs              0.004            0.135             0.144         0.207          0.215   0.084  0.063   -0.109
+Panel B: lambda_obs              0.139            0.560             0.558         0.672          0.671   0.284 -0.113   -0.550
+Panel A: post_impact_obs        -0.065            0.006             0.009         0.043          0.048  -0.021  0.099   -0.048
+Panel B: post_impact_obs         0.356            0.712             0.718         0.783          0.789   0.475 -0.278   -0.698
+saved results for sens_scale0.15

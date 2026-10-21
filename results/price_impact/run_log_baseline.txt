@@ -1,0 +1,18 @@
+simulated 120 stocks x 48 months in 0 s
+participant 2 proxies: 3 s
+participant 3 proxies: 1603 s
+       lambda_true  post_impact_true   lambda_obs  post_impact_obs
+count  5760.000000       5760.000000  5760.000000      5760.000000
+mean      0.000006          0.011108     0.000006         0.010962
+50%       0.000004          0.009560     0.000004         0.009813
+corr obs vs true: {'lambda_true': {'lambda_obs': 0.499, 'post_impact_obs': 0.311}, 'post_impact_true': {'lambda_obs': 0.381, 'post_impact_obs': 0.462}}
+                           roll_impact  eff_tick_impact  eff_tick2_impact  gibbs_impact  lot_mixed_impact  lot_ysplit_impact  zeros_impact  zeros2_impact  amihud  gamma  amivest
+Panel A: lambda_true             0.678            0.766             0.775         0.736             0.757              0.712         0.712          0.704   0.765 -0.060   -0.404
+Panel B: lambda_true             0.583            0.920             0.937         0.787             0.853              0.881         0.868          0.867   0.655  0.038   -0.840
+Panel A: post_impact_true        0.230            0.272             0.278         0.249             0.263              0.254         0.224          0.223   0.268 -0.004   -0.247
+Panel B: post_impact_true        0.577            0.898             0.916         0.777             0.839              0.872         0.860          0.859   0.633  0.024   -0.834
+Panel A: lambda_obs              0.161            0.313             0.323         0.211             0.296              0.314         0.358          0.370   0.279  0.150   -0.214
+Panel B: lambda_obs              0.358            0.817             0.827         0.568             0.764              0.799         0.812          0.806   0.538  0.157   -0.796
+Panel A: post_impact_obs        -0.019            0.066             0.070         0.004             0.051              0.069         0.080          0.088   0.048  0.142   -0.104
+Panel B: post_impact_obs         0.474            0.869             0.879         0.685             0.813              0.856         0.850          0.846   0.571  0.061   -0.839
+saved results for baseline

@@ -1,0 +1,5 @@
+,lambda_true,post_impact_true,lambda_obs,post_impact_obs
+lambda_true,1.0,0.7247,0.9057,0.6183
+post_impact_true,0.7247,1.0,0.6666,0.8759
+lambda_obs,0.9057,0.6666,1.0,0.7371
+post_impact_obs,0.6183,0.8759,0.7371,1.0

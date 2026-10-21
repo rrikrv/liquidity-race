@@ -1,0 +1,1 @@
+synthetic data, 120 stocks × 48 months, true benchmarks (known Lambda; permanent price move after each trade)

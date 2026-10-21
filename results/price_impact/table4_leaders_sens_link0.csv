@@ -1,0 +1,65 @@
+panel,benchmark,proxy,corr,best,in_leader_group,insignificantly_different_from
+A,lambda_true,roll_impact,0.7289535585384085,False,False,"zeros_impact, zeros2_impact"
+A,lambda_true,eff_tick_impact,0.8190739538522115,False,True,"eff_tick2_impact, amihud"
+A,lambda_true,eff_tick2_impact,0.8250811866193791,False,True,"eff_tick_impact, amihud"
+A,lambda_true,zeros_impact,0.7486526970589962,False,False,"roll_impact, zeros2_impact"
+A,lambda_true,zeros2_impact,0.7391763013748621,False,False,"roll_impact, zeros_impact"
+A,lambda_true,amihud,0.8288995089975284,True,True,"eff_tick_impact, eff_tick2_impact"
+A,lambda_true,gamma,-0.03197640380580973,False,False,
+A,lambda_true,amivest,-0.41780223356583157,False,False,
+B,lambda_true,roll_impact,,False,False,
+B,lambda_true,eff_tick_impact,,False,False,
+B,lambda_true,eff_tick2_impact,,False,False,
+B,lambda_true,zeros_impact,,False,False,
+B,lambda_true,zeros2_impact,,False,False,
+B,lambda_true,amihud,,False,False,
+B,lambda_true,gamma,,False,False,
+B,lambda_true,amivest,,False,False,
+A,post_impact_true,roll_impact,0.2765772779979335,False,False,"zeros_impact, zeros2_impact"
+A,post_impact_true,eff_tick_impact,0.32277971673611444,False,False,eff_tick2_impact
+A,post_impact_true,eff_tick2_impact,0.32462425891681856,False,True,"eff_tick_impact, amihud"
+A,post_impact_true,zeros_impact,0.2570452045194143,False,False,"roll_impact, zeros2_impact"
+A,post_impact_true,zeros2_impact,0.25161659887062054,False,False,"roll_impact, zeros_impact"
+A,post_impact_true,amihud,0.336524332197232,True,True,eff_tick2_impact
+A,post_impact_true,gamma,0.0058105383960177235,False,False,
+A,post_impact_true,amivest,-0.28901880413916264,False,False,
+B,post_impact_true,roll_impact,-0.36843601140519044,False,False,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma"
+B,post_impact_true,eff_tick_impact,-0.291526699181593,False,False,"roll_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma"
+B,post_impact_true,eff_tick2_impact,-0.287354519646879,False,False,"roll_impact, eff_tick_impact, zeros_impact, zeros2_impact, amihud, gamma"
+B,post_impact_true,zeros_impact,-0.20630235965784594,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud, gamma, amivest"
+B,post_impact_true,zeros2_impact,-0.20908468375409242,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, amihud, gamma, amivest"
+B,post_impact_true,amihud,-0.2547540936631452,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, gamma, amivest"
+B,post_impact_true,gamma,0.003362713911352228,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, amivest"
+B,post_impact_true,amivest,0.13936261662229535,True,True,"zeros_impact, zeros2_impact, amihud, gamma"
+A,lambda_obs,roll_impact,0.24568183002284713,False,False,
+A,lambda_obs,eff_tick_impact,0.3811302740313692,False,True,"eff_tick2_impact, zeros_impact, zeros2_impact, amihud"
+A,lambda_obs,eff_tick2_impact,0.3860040746264297,False,True,"eff_tick_impact, zeros_impact, zeros2_impact"
+A,lambda_obs,zeros_impact,0.389832415136915,False,True,"eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud"
+A,lambda_obs,zeros2_impact,0.3962439307201325,True,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, amihud"
+A,lambda_obs,amihud,0.3619115171377804,False,True,"eff_tick_impact, zeros_impact, zeros2_impact"
+A,lambda_obs,gamma,0.09239779359557539,False,False,
+A,lambda_obs,amivest,-0.23478206176200578,False,False,
+B,lambda_obs,roll_impact,-0.18550327908348155,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma, amivest"
+B,lambda_obs,eff_tick_impact,-0.01077415265329954,False,True,"roll_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma, amivest"
+B,lambda_obs,eff_tick2_impact,-0.022665955326291766,False,True,"roll_impact, eff_tick_impact, zeros_impact, zeros2_impact, amihud, gamma, amivest"
+B,lambda_obs,zeros_impact,0.020473702894420468,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud, gamma, amivest"
+B,lambda_obs,zeros2_impact,0.017931335204960944,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, amihud, gamma, amivest"
+B,lambda_obs,amihud,-0.0567010146641944,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, gamma, amivest"
+B,lambda_obs,gamma,0.1583612069542458,True,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, amivest"
+B,lambda_obs,amivest,0.03325240317610067,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma"
+A,post_impact_obs,roll_impact,0.008862457309133615,False,False,
+A,post_impact_obs,eff_tick_impact,0.08278265991932528,False,True,"eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma"
+A,post_impact_obs,eff_tick2_impact,0.08272564390320955,False,True,"eff_tick_impact, zeros_impact, zeros2_impact, amihud, gamma"
+A,post_impact_obs,zeros_impact,0.07493300711455482,False,True,"eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud, gamma"
+A,post_impact_obs,zeros2_impact,0.07922637689966691,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, amihud, gamma"
+A,post_impact_obs,amihud,0.07736389333954703,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, gamma"
+A,post_impact_obs,gamma,0.11007442284107555,True,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud"
+A,post_impact_obs,amivest,-0.10990350677083931,False,False,
+B,post_impact_obs,roll_impact,-0.12156059469069887,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma, amivest"
+B,post_impact_obs,eff_tick_impact,0.02013268489229704,False,True,"roll_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma, amivest"
+B,post_impact_obs,eff_tick2_impact,0.006881561490521117,False,True,"roll_impact, eff_tick_impact, zeros_impact, zeros2_impact, amihud, gamma, amivest"
+B,post_impact_obs,zeros_impact,0.026595176154870143,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud, gamma, amivest"
+B,post_impact_obs,zeros2_impact,0.026032356217522708,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, amihud, gamma, amivest"
+B,post_impact_obs,amihud,-0.00867498345217064,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, gamma, amivest"
+B,post_impact_obs,gamma,0.06950936506959737,True,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, amivest"
+B,post_impact_obs,amivest,0.016684313835488702,False,True,"roll_impact, eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact, amihud, gamma"

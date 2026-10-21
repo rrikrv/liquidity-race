@@ -1,0 +1,65 @@
+panel,benchmark,proxy,corr,best,in_leader_group,insignificantly_different_from
+A,lambda_true,roll_impact,0.5537893225276754,False,False,
+A,lambda_true,eff_tick_impact,0.7362726108733041,False,False,eff_tick2_impact
+A,lambda_true,eff_tick2_impact,0.7343852869649939,False,False,"eff_tick_impact, zeros_impact"
+A,lambda_true,zeros_impact,0.6938679152165,False,False,"eff_tick2_impact, zeros2_impact"
+A,lambda_true,zeros2_impact,0.6856460481613292,False,False,zeros_impact
+A,lambda_true,amihud,0.7874532957123691,True,True,
+A,lambda_true,gamma,0.15045917775298448,False,False,
+A,lambda_true,amivest,-0.4191657302054482,False,False,
+B,lambda_true,roll_impact,0.17049970487693725,False,False,gamma
+B,lambda_true,eff_tick_impact,0.8931373667156908,False,True,"eff_tick2_impact, zeros_impact, zeros2_impact, amihud"
+B,lambda_true,eff_tick2_impact,0.9031596307223966,True,True,eff_tick_impact
+B,lambda_true,zeros_impact,0.7785135563605972,False,False,"eff_tick_impact, zeros2_impact, amihud"
+B,lambda_true,zeros2_impact,0.7778636403613007,False,False,"eff_tick_impact, zeros_impact, amihud"
+B,lambda_true,amihud,0.7889858188227205,False,False,"eff_tick_impact, zeros_impact, zeros2_impact"
+B,lambda_true,gamma,0.3586711817341384,False,False,roll_impact
+B,lambda_true,amivest,-0.919889325994254,False,False,
+A,post_impact_true,roll_impact,0.16945094596007784,False,False,"zeros_impact, zeros2_impact"
+A,post_impact_true,eff_tick_impact,0.2692899888964972,False,False,eff_tick2_impact
+A,post_impact_true,eff_tick2_impact,0.27321141903497137,False,False,eff_tick_impact
+A,post_impact_true,zeros_impact,0.19981092075563467,False,False,"roll_impact, zeros2_impact"
+A,post_impact_true,zeros2_impact,0.19579115341286854,False,False,"roll_impact, zeros_impact"
+A,post_impact_true,amihud,0.30678259937708485,True,True,
+A,post_impact_true,gamma,0.10430478264104377,False,False,
+A,post_impact_true,amivest,-0.28431479052439307,False,False,
+B,post_impact_true,roll_impact,0.17256539199248463,False,False,gamma
+B,post_impact_true,eff_tick_impact,0.870459128151032,False,True,"eff_tick2_impact, zeros_impact, zeros2_impact, amihud"
+B,post_impact_true,eff_tick2_impact,0.8801227029531111,True,True,"eff_tick_impact, zeros_impact, zeros2_impact, amihud"
+B,post_impact_true,zeros_impact,0.7564929477352682,False,True,"eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud"
+B,post_impact_true,zeros2_impact,0.7567078459450506,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, amihud"
+B,post_impact_true,amihud,0.7736874449993014,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact"
+B,post_impact_true,gamma,0.34621936878474147,False,False,roll_impact
+B,post_impact_true,amivest,-0.9268102556017018,False,False,
+A,lambda_obs,roll_impact,0.39910793834829256,False,False,
+A,lambda_obs,eff_tick_impact,0.6264379963661607,False,False,"eff_tick2_impact, zeros_impact, zeros2_impact"
+A,lambda_obs,eff_tick2_impact,0.6286632307474784,False,True,"eff_tick_impact, zeros_impact, zeros2_impact, amihud"
+A,lambda_obs,zeros_impact,0.6273076003575785,False,True,"eff_tick_impact, eff_tick2_impact, zeros2_impact, amihud"
+A,lambda_obs,zeros2_impact,0.6220492536305317,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, amihud"
+A,lambda_obs,amihud,0.6596234558819078,True,True,"eff_tick2_impact, zeros_impact, zeros2_impact"
+A,lambda_obs,gamma,0.19389942003430768,False,False,
+A,lambda_obs,amivest,-0.3848883352818129,False,False,
+B,lambda_obs,roll_impact,0.1285064768279128,False,False,gamma
+B,lambda_obs,eff_tick_impact,0.8916673426544331,False,True,"eff_tick2_impact, amihud"
+B,lambda_obs,eff_tick2_impact,0.8996677458919141,True,True,eff_tick_impact
+B,lambda_obs,zeros_impact,0.7521336238129148,False,False,"zeros2_impact, amihud"
+B,lambda_obs,zeros2_impact,0.7549120875483175,False,False,"zeros_impact, amihud"
+B,lambda_obs,amihud,0.7793638112965349,False,False,"eff_tick_impact, zeros_impact, zeros2_impact"
+B,lambda_obs,gamma,0.3969063708989677,False,False,roll_impact
+B,lambda_obs,amivest,-0.9139348731971161,False,False,
+A,post_impact_obs,roll_impact,0.06819352333230161,False,False,
+A,post_impact_obs,eff_tick_impact,0.1866558878145752,False,False,"eff_tick2_impact, gamma"
+A,post_impact_obs,eff_tick2_impact,0.19028359657115093,False,False,"eff_tick_impact, gamma"
+A,post_impact_obs,zeros_impact,0.14606655466220145,False,False,"zeros2_impact, gamma"
+A,post_impact_obs,zeros2_impact,0.14349618773448256,False,False,"zeros_impact, gamma"
+A,post_impact_obs,amihud,0.2230520216962737,True,True,
+A,post_impact_obs,gamma,0.13892685982812739,False,False,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact"
+A,post_impact_obs,amivest,-0.24416818447916763,False,False,
+B,post_impact_obs,roll_impact,0.15393209338033578,False,False,gamma
+B,post_impact_obs,eff_tick_impact,0.8729380151849836,False,True,"eff_tick2_impact, zeros_impact, zeros2_impact, amihud"
+B,post_impact_obs,eff_tick2_impact,0.8797469297488191,True,True,"eff_tick_impact, amihud"
+B,post_impact_obs,zeros_impact,0.7373822921139543,False,False,"eff_tick_impact, zeros2_impact, amihud"
+B,post_impact_obs,zeros2_impact,0.7377362742767778,False,False,"eff_tick_impact, zeros_impact, amihud"
+B,post_impact_obs,amihud,0.7699657414605904,False,True,"eff_tick_impact, eff_tick2_impact, zeros_impact, zeros2_impact"
+B,post_impact_obs,gamma,0.35569934631695,False,False,roll_impact
+B,post_impact_obs,amivest,-0.9225200247331359,False,False,

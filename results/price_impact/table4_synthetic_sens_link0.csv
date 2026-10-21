@@ -1,0 +1,9 @@
+,roll_impact,eff_tick_impact,eff_tick2_impact,zeros_impact,zeros2_impact,amihud,gamma,amivest
+Panel A: lambda_true,0.729,0.8191,0.8251,0.7487,0.7392,0.8289,-0.032,-0.4178
+Panel B: lambda_true,,,,,,,,
+Panel A: post_impact_true,0.2766,0.3228,0.3246,0.257,0.2516,0.3365,0.0058,-0.289
+Panel B: post_impact_true,-0.3684,-0.2915,-0.2874,-0.2063,-0.2091,-0.2548,0.0034,0.1394
+Panel A: lambda_obs,0.2457,0.3811,0.386,0.3898,0.3962,0.3619,0.0924,-0.2348
+Panel B: lambda_obs,-0.1855,-0.0108,-0.0227,0.0205,0.0179,-0.0567,0.1584,0.0333
+Panel A: post_impact_obs,0.0089,0.0828,0.0827,0.0749,0.0792,0.0774,0.1101,-0.1099
+Panel B: post_impact_obs,-0.1216,0.0201,0.0069,0.0266,0.026,-0.0087,0.0695,0.0167

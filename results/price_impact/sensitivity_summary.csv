@@ -1,0 +1,16 @@
+config,panel,benchmark,best,best_corr,amihud_corr,amihud_in_top_group,corr_lambda_obs_vs_true
+baseline,A,lambda_true,eff_tick2_impact,0.775,0.765,True,0.5
+baseline,A,post_impact_true,eff_tick2_impact,0.278,0.268,True,0.5
+baseline,B,lambda_true,eff_tick2_impact,0.937,0.655,False,0.5
+baseline,B,post_impact_true,eff_tick2_impact,0.916,0.633,False,0.5
+sens_link0,A,lambda_true,amihud,0.829,0.829,True,0.5
+sens_link0,A,post_impact_true,amihud,0.337,0.337,True,0.5
+sens_link0,B,post_impact_true,amivest,0.139,-0.255,True,0.5
+sens_scale0.15,A,lambda_true,eff_tick2_impact,0.778,0.767,True,0.23
+sens_scale0.15,A,post_impact_true,eff_tick2_impact,0.277,0.267,True,0.23
+sens_scale0.15,B,lambda_true,eff_tick2_impact,0.917,0.773,False,0.23
+sens_scale0.15,B,post_impact_true,eff_tick2_impact,0.89,0.749,False,0.23
+sens_scale1.0,A,lambda_true,amihud,0.787,0.787,True,0.91
+sens_scale1.0,A,post_impact_true,amihud,0.307,0.307,True,0.91
+sens_scale1.0,B,lambda_true,eff_tick2_impact,0.903,0.789,False,0.91
+sens_scale1.0,B,post_impact_true,eff_tick2_impact,0.88,0.774,True,0.91

@@ -1,0 +1,7 @@
+,synthetic_monthly,synthetic_monthly,synthetic_monthly,synthetic_monthly,synthetic_annual,synthetic_annual,synthetic_annual,synthetic_annual,paper_monthly_TAQ,paper_monthly_TAQ,paper_monthly_TAQ,paper_monthly_TAQ
+,cs_corr,ts_corr,mean_bias,rmse,cs_corr,ts_corr,mean_bias,rmse,cs_corr,ts_corr,mean_bias,rmse
+roll,0.726,0.845,0.003,0.014,0.947,0.97,0.003,0.006,0.56,0.925,-0.002,0.032
+eff_tick,0.961,0.995,0.001,0.005,0.994,1.0,0.0,0.002,0.626,0.941,-0.012,0.031
+eff_tick2,0.928,0.995,-0.0,0.006,0.965,0.999,-0.001,0.005,0.614,0.939,-0.013,0.032
+zeros,0.405,0.96,,,0.567,0.995,,,0.427,0.874,,
+zeros2,0.335,0.959,,,0.456,0.995,,,0.308,0.86,,
