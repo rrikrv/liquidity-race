@@ -1,1 +1,0 @@
-Cross-section: Amihud stays in the top group (level with Eff Tick2 Imp), Gamma and Amivest are last, as in the paper. Over time (B) spread-based proxies win in our data, but we tied Lambda to the spread factor by construction, so this is not evidence against Amihud.
